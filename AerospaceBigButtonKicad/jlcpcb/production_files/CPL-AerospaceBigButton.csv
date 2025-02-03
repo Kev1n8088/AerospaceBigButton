@@ -1,0 +1,15 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10uF,C_0805_2012Metric,81.2,-33.0,0.0,top
+C2,10uF,C_0805_2012Metric,67.4,-54.8,0.0,top
+C3,100uF,CP_Elec_6.3x7.7,81.28,-38.1,180.0,top
+Q1,Si7336ADP,PowerPAK_SO-8_Single,71.205,-27.87,180.0,top
+Q2,MMBT2222A,SOT-23,55.6,-62.6,0.0,top
+R1,10k,R_0805_2012Metric,86.0,-77.6875,90.0,top
+R2,100k,R_0805_2012Metric,76.6,-57.6,0.0,top
+R3,27k,R_0805_2012Metric,76.6,-59.8,0.0,top
+R4,1k,R_0805_2012Metric,85.8,-71.0,0.0,top
+R5,3.3k,R_0805_2012Metric,85.8,-73.6,180.0,top
+R6,1k,R_0805_2012Metric,55.6,-66.0,0.0,top
+R8,100k,R_0805_2012Metric,85.32,-58.165,-90.0,top
+R9,27k,R_0805_2012Metric,81.8,-58.2,-90.0,top
+U1,AMS1117-5.0,SOT-223-3_TabPin2,65.8,-48.6,90.0,top

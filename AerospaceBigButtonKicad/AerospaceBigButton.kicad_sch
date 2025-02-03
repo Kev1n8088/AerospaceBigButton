@@ -1382,6 +1382,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:MMBT2222A"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT2222A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT2222A_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT2222A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:Si7336ADP"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2322,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 120.65 118.11)
+			(xy 106.68 129.54) (xy 120.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2502,6 +2692,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 110.49) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f19084-63af-4824-8a6d-a69587230766")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 142.24 63.5)
 		)
 		(stroke
@@ -2592,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 120.65 113.03)
+			(xy 106.68 124.46) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2742,6 +2942,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 110.49) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adecbf96-d5e7-4d65-91ed-c8bde361e7f3")
+	)
+	(wire
+		(pts
 			(xy 245.11 35.56) (xy 236.22 35.56)
 		)
 		(stroke
@@ -2882,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 110.49) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39ae318-b340-4b6f-8b09-2224482754a8")
+	)
+	(wire
+		(pts
 			(xy 259.08 45.72) (xy 259.08 46.99)
 		)
 		(stroke
@@ -2889,6 +3109,16 @@
 			(type default)
 		)
 		(uuid "e4abe269-6ae1-49df-a1bc-de9e3981c5ec")
+	)
+	(wire
+		(pts
+			(xy 99.06 119.38) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4694b2-f0f4-413b-8729-3135b6739812")
 	)
 	(wire
 		(pts
@@ -2922,6 +3152,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bee5e0-b4a5-4af2-8ab3-2fd3ac89690e")
+	)
+	(wire
+		(pts
 			(xy 44.45 46.99) (xy 50.8 46.99)
 		)
 		(stroke
@@ -2929,16 +3169,6 @@
 			(type default)
 		)
 		(uuid "f5a7cfef-f8f1-42c8-be70-0ebcd0414cce")
-	)
-	(wire
-		(pts
-			(xy 101.6 115.57) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f777b1ea-df95-493b-94a4-a19b0ae6ae2d")
 	)
 	(wire
 		(pts
@@ -2962,6 +3192,7 @@
 	)
 	(label "FIRE"
 		(at 96.52 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2972,6 +3203,7 @@
 	)
 	(label "PYRO"
 		(at 132.08 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2982,6 +3214,7 @@
 	)
 	(label "VINSENSE"
 		(at 77.47 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2992,6 +3225,7 @@
 	)
 	(label "BIGSWITCH"
 		(at 232.41 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3002,6 +3236,7 @@
 	)
 	(label "FIRE"
 		(at 81.28 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,8 +3245,20 @@
 		)
 		(uuid "6f82dacd-c0cc-4293-8363-35485c7c9192")
 	)
+	(label "ARMED"
+		(at 74.93 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dd9ec46-1e0f-4788-a85b-38672afbc318")
+	)
 	(label "CONT"
 		(at 143.51 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3022,6 +3269,7 @@
 	)
 	(label "BIGSWITCH"
 		(at 77.47 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,18 +3278,9 @@
 		)
 		(uuid "b48a1377-5efc-422d-bcc8-65cf8995d14b")
 	)
-	(label "ARMED"
-		(at 107.95 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc27057b-b697-4471-9fe1-f677d5177654")
-	)
 	(label "PYRO"
 		(at 38.1 72.39 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3052,6 +3291,7 @@
 	)
 	(label "VINSENSE"
 		(at 262.89 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3062,6 +3302,7 @@
 	)
 	(label "ARMED"
 		(at 77.47 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3072,6 +3313,7 @@
 	)
 	(label "CONT"
 		(at 77.47 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3079,6 +3321,72 @@
 			(justify left bottom)
 		)
 		(uuid "f9c41f02-2dbc-4097-8d33-9e5107a99253")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0112b712-1086-417d-a961-779956d658a6")
+		(property "Reference" "#PWR022"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46e7c7b9-6c72-42e5-b9d5-9b4bd37631d9")
+		)
+		(instances
+			(project "AerospaceBigButton"
+				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3152,7 +3460,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 125.73 115.57 0)
+		(at 125.73 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3161,7 +3469,7 @@
 		(fields_autoplaced yes)
 		(uuid "09a7cb7c-8438-4f21-a590-30a5680e2c77")
 		(property "Reference" "J6"
-			(at 128.27 114.2999 0)
+			(at 128.27 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3478,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 128.27 116.8399 0)
+			(at 128.27 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3487,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
-			(at 125.73 115.57 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 115.57 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3505,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 115.57 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 118.11 0)
+		(at 106.68 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dac9117-fcf7-4056-b3a5-092f821aca93")
 		(property "Reference" "#PWR011"
-			(at 106.68 124.46 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +4224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 123.19 0)
+			(at 106.68 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 118.11 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 118.11 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +4250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 118.11 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,6 +4539,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 90.17 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a8e1f8a-8360-447d-8de3-d6f7eb7b0477")
+		(property "Reference" "R6"
+			(at 90.17 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 90.17 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 90.17 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c252ca61-45ea-44cd-8d80-60d2914ad185")
+		)
+		(pin "2"
+			(uuid "103693ca-81cd-4cf3-bdb0-1fe3e1bc05c6")
+		)
+		(instances
+			(project "AerospaceBigButton"
+				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 224.79 125.73 0)
 		(unit 1)
@@ -4450,72 +4826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 101.6 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79b6f774-7e1b-4709-8a5d-797b613ebe91")
-		(property "Reference" "#PWR017"
-			(at 101.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 101.6 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54275b1e-10b6-4026-b5eb-503c67fa2b63")
-		)
-		(instances
-			(project "AerospaceBigButton"
-				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 267.97 77.47 0)
 		(unit 1)
@@ -4709,6 +5019,72 @@
 			(project ""
 				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c0af94-f244-4fed-8b22-622fc6bed1a0")
+		(property "Reference" "#PWR017"
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa13951-c53e-46dc-9771-ea8cd4f4b090")
+		)
+		(instances
+			(project "AerospaceBigButton"
+				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5805,6 +6181,82 @@
 			(project "AerospaceBigButton"
 				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 104.14 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f029d4a2-e1e4-489e-83c7-a434df8ee6e8")
+		(property "Reference" "Q2"
+			(at 109.22 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 109.22 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 109.22 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7319b5ed-4489-47db-a152-32a2ef2a2e74")
+		)
+		(pin "1"
+			(uuid "4b767d4d-2ec1-4403-9ed9-858157d4ffe5")
+		)
+		(pin "2"
+			(uuid "b4723c44-e0c7-42f8-a6a8-001817567a7b")
+		)
+		(instances
+			(project ""
+				(path "/77b1e4da-9316-46c3-840e-da9e092cacb6"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
